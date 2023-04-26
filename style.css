@@ -24,7 +24,7 @@ body {
 
 .logo {
   font-size: 30px;
-  color: red;
+  color: #f84c1d;
 }
 
 .menu-container {
@@ -45,7 +45,7 @@ body {
 }
 
 .menu-list a:hover{
-  color: red;
+  color: #f84c1d;
 }
 
 .menu-list-item {
@@ -75,7 +75,7 @@ body {
 }
 
 .sidebar a i:hover{
-  color: red;
+  color: #f84c1d;
 }
 
 .left-menu-icon {
