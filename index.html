@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="style.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
@@ -21,30 +22,31 @@
             </div>
             <div class="menu-container">
                 <ul class="menu-list">
-                    <a href="#"><li class="menu-list-item">Home</li></a>
-                    <a href="#"><li class="menu-list-item">New</li></a>
-                    <a href="#"><li class="menu-list-item">Action/Adventure</li></a>
-                    <a href="#"><li class="menu-list-item">Worth a Wait</li></a>
+                    <a href="#home"><li class="menu-list-item">Home</li></a>
+                    <a href="#new"><li class="menu-list-item">New</li></a>
+                    <a href="#AA"><li class="menu-list-item">Action/Adventure</li></a>
+                    <a href="#R"><li class="menu-list-item">Romance</li></a>
+                    <a href="#WW"><li class="menu-list-item">Worth a Wait</li></a>
                 </ul>
             </div>
         </div>
     </div>
-    <div class="sidebar">
-        <a href=""><i class="left-menu-icon fas fa-home"></i></a>
+    <div class="sidebar d-md-flex">
+        <a href="#home"><i class="left-menu-icon fas fa-home"></i></a>
         <a href=""><i class="left-menu-icon fas fa-users"></i></a>
         <a href=""><i class="left-menu-icon fas fa-tv"></i></a>
         <a href=""><i class="left-menu-icon fas fa-shopping-cart"></i></a>
     </div>
-    <div class="container">
+    <div class="container" id="home">
         <div class="content-container">
             <div class="featured-content"
                 style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('https://www.hindustantimes.com/ht-img/img/2023/03/28/1600x900/One_Piece_Wano_1679966485338_1679966497954_1679966497954.webp');">
                 <img class="featured-title" src="https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/One_Piece_Logo.svg/1200px-One_Piece_Logo.svg.png" alt="">
                 <p class="featured-desc">The series focuses on Monkey D. Luffy—a young man made of rubber after unintentionally eating a Devil Fruit—who sets off on a journey from the East Blue Sea to find the deceased King of the Pirates Gol D. Roger's ultimate treasure known as the "One Piece", and takeover his prior title.</p>
-                <button class="featured-button">WATCH</button>
+                <button class="featured-button">DOWNLOAD</button>
             </div>
             <div class="movie-list-container">
-                <h1 class="movie-list-title">NEW RELEASES</h1>
+                <h1 class="movie-list-title" id="new">NEW RELEASES</h1>
                 <div class="movie-list-wrapper">
                     <div class="movie-list">
                         <div class="movie-list-item">
@@ -95,7 +97,7 @@
                 </div>
             </div>
             <div class="movie-list-container">
-                <h1 class="movie-list-title">ACTION / ADVENTURE</h1>
+                <h1 class="movie-list-title" id="AA">ACTION / ADVENTURE</h1>
                 <div class="movie-list-wrapper">
                     <div class="movie-list">
                         <div class="movie-list-item">
@@ -142,10 +144,10 @@
                 style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('https://wealthofgeeks.com/wp-content/uploads/2021/11/Best-Kakegurui-Characters-11.jpg');">
                 <img class="featured-title" src="https://occ-0-1348-988.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABdpTapZsnzM_5lV_tWP0pSM-dkivxkOVfrsnTn2Ol13KnA7Zyp1BpWcv2QSj6V1efqQwGmHtBcUOr-M14e0OVEscplWYRllLF35UzxMVX31jIuTWqzYh6ok3RQPwOJvRmEe_HFlfYnDUolboIQXVeM77E0geAw8ejxyvObVSS1VqvHQX80BlUQ.png?r=cc6" alt="">
                 <p class="featured-desc">The plot of Kakegurui revolves around students who attend the Hyakkaou Private Academy. It is a school for the most wealthy and privileged individuals. The social hierarchy of the school is determined through a series of games where the students must wager their fortunes against one another.</p>
-                <button class="featured-button">WATCH</button>
+                <button class="featured-button">DOWNLOAD</button>
             </div>
             <div class="movie-list-container">
-                <h1 class="movie-list-title">ROMANCE</h1>
+                <h1 class="movie-list-title" id="R">ROMANCE</h1>
                 <div class="movie-list-wrapper">
                     <div class="movie-list">
                         <div class="movie-list-item">
@@ -190,44 +192,43 @@
                 </div>
             </div>
             <div class="movie-list-container">
-                <h1 class="movie-list-title">WORTH A WAIT</h1>
+                <h1 class="movie-list-title" id="WW">WORTH A WAIT</h1>
                 <div class="movie-list-wrapper">
                     <div class="movie-list">
                         <div class="movie-list-item">
                             <img class="movie-list-item-img" src="https://m.media-amazon.com/images/M/MV5BMDM3M2YwZjgtM2JjYi00MGY1LWE4MjMtOWZkOGNkNDA0ZDAwXkEyXkFqcGdeQXVyMTEwNDU1MzEy._V1_FMjpg_UX1000_.jpg" alt="">
                             <span class="movie-list-item-title">Solo Leveling</span>
                             <p class="movie-list-item-desc">In a world where hunters, humans who possess magical abilities, must battle deadly monsters to protect the human race.</p>
-                            <button class="movie-list-item-button">Watch</button>
                         </div>
                         <div class="movie-list-item">
                             <img class="movie-list-item-img" src="https://m.media-amazon.com/images/M/MV5BNzZiYTM4N2MtNzQ5NC00ODllLThkYzAtOGFjNDZjYzcxNDNiXkEyXkFqcGdeQXVyNjU1OTg4OTM@._V1_UX140_CR0,0,140,209_AL_.jpg" alt="">
                             <span class="movie-list-item-title">Uzumaki</span>
                             <p class="movie-list-item-desc">A town of people slowly go insane over increasing obsessions with spiral shapes: patterns in the clouds, everyday objects, hair, insects, skin.</p>
-                            <button class="movie-list-item-button">Watch</button>
+                           
                         </div>
                         <div class="movie-list-item">
                             <img class="movie-list-item-img" src="https://m.media-amazon.com/images/M/MV5BMzk0ZGRmNTItNTkzYi00NTYzLTgxMWMtZTNlNDYzMmM0Njg1XkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_FMjpg_UX1000_.jpg" alt="">
                             <span class="movie-list-item-title"> Akuma-kun</span>
                             <p class="movie-list-item-desc">A boy trying create a society where humanity realizes it's true potential and lives happily, with the help of some unlikely allies.</p>
-                            <button class="movie-list-item-button">Watch</button>
+                            
                         </div>
                         <div class="movie-list-item">
                             <img class="movie-list-item-img" src="https://scans-hot.leanbox.us/manga/Sakamoto-Days/0076-002.png" alt="">
                             <span class="movie-list-item-title">Sakamoto Days</span>
                             <p class="movie-list-item-desc">Taro Sakamoto used to be an unrivaled hit-man, earning legendary status in the underworld. But one day, the unthinkable happened.</p>
-                            <button class="movie-list-item-button">Watch</button>
+                            
                         </div>
                         <div class="movie-list-item">
                             <img class="movie-list-item-img" src="https://animecollective.com/wp-content/uploads/2023/03/2024-anime-kaiju-no-8-anime.jpeg.webp" alt="">
                             <span class="movie-list-item-title">Kaiju No. 8 </span>
                             <p class="movie-list-item-desc">In Japan, monsters known as kaiju regularly attack the populace with the Japanese Defense Force tasked with killing them.</p>
-                            <button class="movie-list-item-button">Watch</button>
+                            
                         </div>
                         <div class="movie-list-item">
                             <img class="movie-list-item-img" src="https://www.epicdope.com/wp-content/uploads/2023/01/moonrise-netflix.jpg" alt="">
                             <span class="movie-list-item-title">Moonrise</span>
                             <p class="movie-list-item-desc">Moonrise will take Jack and Al on an adventure to the moon, which involves lots of futuristic guns and battles on the top of a spacecraft. </p>
-                            <button class="movie-list-item-button">Watch</button>
+                            
                         </div>
                     </div>
                     <i class="fas fa-chevron-right arrow"></i>
