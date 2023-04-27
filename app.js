@@ -20,4 +20,20 @@ arrows.forEach((arrow, i) => {
   console.log(Math.floor(window.innerWidth / 270));
 });
 
+var movieModal;
 
+document.addEventListener("DOMContentLoaded", function() {
+  movieModal = new bootstrap.Modal(document.getElementById('movieModal'), {
+    keyboard: false
+  })
+});  
+
+function openModalPopup(data) {
+  const videoURL = data.previousElementSibling.dataset.video;
+  const description = data.previousElementSibling.innerText;
+  const title = data.previousElementSibling.previousElementSibling.innerText;
+  movieModal.toggle();
+  document.querySelector(".movie-metadata h4").innerText = title;
+  document.querySelector(".movie-metadata p").innerText = description;
+  document.querySelector(".video-container video").src = videoURL;
+}
