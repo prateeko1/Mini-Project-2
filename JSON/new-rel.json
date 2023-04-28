@@ -1,0 +1,91 @@
+{
+    "newReleases": [
+        {
+            "title": "Mashle",
+            "description": "This is a world of magic where magic is used for everything. But deep in the forest exists a young man who spends his time training.",
+            "video" : "videos/MASHLE.mp4",
+            "img": "https://www.hindustantimes.com/ht-img/img/2023/04/08/1600x900/Mashle_Magic_and_Muscles_1680921912336_1680921926407_1680921926407.jpg"
+        
+        },
+        {
+            "title": "Demon Slayer",
+            "description": "Tanjiro's journey to the Swordsmith Village to reunite with two Hashira, Mist Hashira Muichiro Tokito and Love Hashira Mitsuri Kanroji.",
+            "video" : "videos/MASHLE.mp4",
+            "img": "https://cdn.oneesports.gg/cdn-data/2023/03/Anime_DemonSlayer_Season3_Poster.jpg"
+        
+        },
+        {
+            "title": "Vinland Saga",
+            "description": "Einar, a young man from northern England, lives with his mother and younger sister in a peaceful farming village.",
+            "video" : "videos/MASHLE.mp4",
+            "img": "https://sportshub.cbsistatic.com/i/2022/06/08/94653059-d16f-4567-b63a-a924c90af88f/vinland-saga-season-2.jpg?auto=webp&width=707&height=1000&crop=0.707:1,smart"
+        
+        },
+        {
+            "title": "Suzume",
+            "description": "The film follows 17-year-old high school student Suzume Iwato and Souta Munakata, to prevent a series of disasters across Japan.",
+            "video" : "videos/MASHLE.mp4",
+            "img": "https://dx35vtwkllhj9.cloudfront.net/crunchy-roll/suzume/images/regions/intl/onesheet.jpg"
+        
+        },
+        {
+            "title": "Oshi no Ko",
+            "description": "Oshi No Ko is a supernatural mystery set within the entertainment and idol industry, Vivy tells the story of an AI songstress.",
+            "video" : "videos/MASHLE.mp4",
+            "img": "https://m.media-amazon.com/images/M/MV5BYTgxZjNlZWQtYjg1OS00NzY2LTkyZTctZDBkY2Y2ZWEyMjNlXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg"
+        
+        },
+        {
+            "title": "Watt's Up, Girl?",
+            "description": "Suddenly, the electrical appliance becomes a girl. Since then, his stable and boring life has been full of waves and laughter.",
+            "video" : "videos/MASHLE.mp4",
+            "img": "https://simkl.in/posters/13/13889227655ee7ef90_ca.jpg"
+        
+        },
+        {
+            "title": "Dr.STONE",
+            "description": "Awakened into a world where humanity has been petrified, scientific genius Senku and his brawny friend Taiju.",
+            "video" : "videos/MASHLE.mp4",
+            "img": "https://staticc.sportskeeda.com/editor/2023/03/53ef8-16783601376428-1920.jpg"
+        
+        }
+    ],
+    "actions" : [
+        {
+            "img": "https://m.media-amazon.com/images/M/MV5BMDI3ZDY4MDgtN2U2OS00Y2YzLWJmZmYtZWMzOTM3YWFjYmUyXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1000_.jpg",
+            "video": "",
+            "title": "Naruto",
+            "description": "It tells the story of Naruto Uzumaki, a young ninja who seeks recognition from his peers and dreams of becoming the Hokage."
+        },
+        {
+            "img": "https://m.media-amazon.com/images/M/MV5BOTgwNDk2MjItM2RhNC00MTU5LThkZDctYWNkMTk5ODQzNzA3XkEyXkFqcGdeQXVyMTU4ODE3MjI1._V1_FMjpg_UX1000_.jpg",
+            "video": "",
+            "title": "Lupin ZERO",
+            "description": "In 1960s Japan, a thief's rebellious grandson and a gun-toting delinquent meet for the first time."
+        },
+        {
+            "img": "https://m.media-amazon.com/images/M/MV5BYWY3MTliMWYtMmQ1Zi00NDE0LTkzYmUtZDI4MDM1MTgwZTc4XkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1000_.jpg",
+            "video": "",
+            "title": "Made in Abyss",
+            "description": "A girl and her robot companion search for her mother, who's lost within a vast chasm."
+        },
+        {
+            "img": "https://m.media-amazon.com/images/I/81eP6Elv2XL._RI_.jpg",
+            "video": "",
+            "title": "Overlord IV",
+            "description": "An office worker in a dystopian world logs onto a video game for the last time only to find out that he."
+        },
+        {
+            "img": "https://cdn.akamai.steamstatic.com/steam/apps/570/capsule_616x353.jpg?t=1650611880",
+            "video": "",
+            "title": "DOTA 2",
+            "description": "two teams of five players compete to destroy a large structure defended by the opposing team."
+        },
+        {
+            "img": "https://m.media-amazon.com/images/M/MV5BN2U2OWQ5YTUtZTRlYS00M2I2LTk3MzEtNTQ0OTNiNGY3ZTc3XkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_.jpg",
+            "video": "",
+            "title": "Goblin Slayer",
+            "description": "In a fantasy world, a lone hero makes his living by exterminating all goblins he encounters."
+        }
+    ]
+}
