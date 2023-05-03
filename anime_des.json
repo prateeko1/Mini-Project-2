@@ -87,5 +87,81 @@
             "title": "Goblin Slayer",
             "description": "In a fantasy world, a lone hero makes his living by exterminating all goblins he encounters."
         }
+    ],
+    "romance" : [
+        {
+            "img": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/71aYXxJliwL._AC_SX466_.jpg",
+            "video": "",
+            "title": "Horimiya",
+            "description": "Two very different people - an academically successful schoolgirl and a quiet loser schoolboy - meet and develop a friendship."
+        },
+        {
+            "img": "https://upload.wikimedia.org/wikipedia/en/e/e5/Plastic_Memories_DVD_Vol_1.jpg",
+            "video": "",
+            "title": "Plastic Memories",
+            "description": "After failing his college exams, 18 year old Tsukasa Mizugaki is offered a position at the renowned SAI."
+        },
+        {
+            "img": "https://m.media-amazon.com/images/M/MV5BYjhlYWI2MGUtNjk4ZS00OWJjLWJiZTEtYWYxNTY5MzVhYzI0XkEyXkFqcGdeQXVyNDgyODgxNjE@._V1_.jpg",
+            "video": "",
+            "title": "High School DxD",
+            "description": "The story follows Issei Hyodo, a dim-witted, lecherous second-year high school student who is killed by a girl on his first date ever."
+        },
+        {
+            "img": "https://m.media-amazon.com/images/M/MV5BMjg5NGQ0ZjMtODk0MC00MmNlLWJmZTUtZDUwNmY1ZTc3ODk0XkEyXkFqcGdeQXVyMTQ3MjMyMTYz._V1_.jpg",
+            "video": "",
+            "title": "Date A Live",
+            "description": "A boy named Itsuka Shido meets a spirit girl who has been rejected by a devastated world. The girl, who Shido names Tohka."
+        },
+        {
+            "img": "https://m.media-amazon.com/images/M/MV5BOTRiYWQ2ZDktYjVlOS00OTIyLTk0Y2EtZmNkYzNkNjRkNzlhXkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_.jpg",
+            "video": "",
+            "title": "Romantic Killer",
+            "description": "High schooler Anzu Hoshino has a great life. Every day she plays video games, pigs out on snacks, and pets her beloved cat."
+        },
+        {
+            "img": "https://m.media-amazon.com/images/M/MV5BMDA4ZjY5NGEtZjI2Ni00MjYwLWE0NGItN2JhMzU3Mzc2ZmQ2L2ltYWdlXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg",
+            "video": "",
+            "title": "Scum's Wish",
+            "description": "A perfect couple struggles with a secret longing each has for someone else."
+        }
+    ],
+    "upcoming" : [
+        {
+            "img": "https://m.media-amazon.com/images/M/MV5BMDM3M2YwZjgtM2JjYi00MGY1LWE4MjMtOWZkOGNkNDA0ZDAwXkEyXkFqcGdeQXVyMTEwNDU1MzEy._V1_FMjpg_UX1000_.jpg",
+            "video": "",
+            "title": "Solo Leveling",
+            "description": "In a world where hunters, humans who possess magical abilities, must battle deadly monsters to protect the human race."
+        },
+        {
+            "img": "https://m.media-amazon.com/images/M/MV5BNzZiYTM4N2MtNzQ5NC00ODllLThkYzAtOGFjNDZjYzcxNDNiXkEyXkFqcGdeQXVyNjU1OTg4OTM@._V1_UX140_CR0,0,140,209_AL_.jpg",
+            "video": "",
+            "title": "Uzumaki",
+            "description": "A town of people slowly go insane over increasing obsessions with spiral shapes: patterns in the clouds, everyday objects, hair, insects, skin."
+        },
+        {
+            "img": "https://m.media-amazon.com/images/M/MV5BMzk0ZGRmNTItNTkzYi00NTYzLTgxMWMtZTNlNDYzMmM0Njg1XkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_FMjpg_UX1000_.jpg",
+            "video": "",
+            "title": "Akuma-kun",
+            "description": "A boy trying create a society where humanity realizes it's true potential and lives happily, with the help of some unlikely allies."
+        },
+        {
+            "img": "https://scans-hot.leanbox.us/manga/Sakamoto-Days/0076-002.png",
+            "video": "",
+            "title": "Sakamoto Days",
+            "description": "Taro Sakamoto used to be an unrivaled hit-man, earning legendary status in the underworld. But one day, the unthinkable happened."
+        },
+        {
+            "img": "https://animecollective.com/wp-content/uploads/2023/03/2024-anime-kaiju-no-8-anime.jpeg.webp",
+            "video": "",
+            "title": "Kaiju No. 8",
+            "description": "In Japan, monsters known as kaiju regularly attack the populace with the Japanese Defense Force tasked with killing them."
+        },
+        {
+            "img": "https://www.epicdope.com/wp-content/uploads/2023/01/moonrise-netflix.jpg",
+            "video": "",
+            "title": "Moonrise",
+            "description": "Moonrise will take Jack and Al on an adventure to the moon, which involves lots of futuristic guns and battles on the top of a spacecraft."
+        }
     ]
 }

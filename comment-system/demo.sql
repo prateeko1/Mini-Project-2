@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 27, 2023 at 08:36 AM
+-- Generation Time: May 02, 2023 at 08:08 AM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.2.0
 
@@ -18,38 +18,29 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `user_db`
+-- Database: `comment_system_php`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `user_form`
+-- Table structure for table `demo`
 --
 
-CREATE TABLE `user_form` (
-  `id` int(255) NOT NULL,
+CREATE TABLE `demo` (
+  `id` int(11) NOT NULL,
   `name` varchar(255) NOT NULL,
-  `email` varchar(255) NOT NULL,
-  `password` varchar(255) NOT NULL,
-  `user_type` varchar(255) NOT NULL DEFAULT 'user'
+  `message` mediumtext NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
-
---
--- Dumping data for table `user_form`
---
-
-INSERT INTO `user_form` (`id`, `name`, `email`, `password`, `user_type`) VALUES
-(1, 'prateek prajapati', 'Himanshudubey802@gmail.com', 'e10adc3949ba59abbe56e057f20f883e', 'admin');
 
 --
 -- Indexes for dumped tables
 --
 
 --
--- Indexes for table `user_form`
+-- Indexes for table `demo`
 --
-ALTER TABLE `user_form`
+ALTER TABLE `demo`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -57,10 +48,10 @@ ALTER TABLE `user_form`
 --
 
 --
--- AUTO_INCREMENT for table `user_form`
+-- AUTO_INCREMENT for table `demo`
 --
-ALTER TABLE `user_form`
-  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+ALTER TABLE `demo`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
